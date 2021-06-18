@@ -1,4 +1,5 @@
 @import url("fontawesome-all.min.css");
+@import url("academicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*
@@ -2674,7 +2675,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/pexels-rafael-paul-4797130_cropped.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2690,7 +2691,7 @@ input, select, textarea {
 			background: #212121;
 			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
-			padding: 1.5em 0;
+			padding: 0.1em 0;
 		}
 
 			#banner header h2 {
