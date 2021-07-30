@@ -16,7 +16,7 @@ small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
+canvas, details, embed, figure,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
@@ -24,6 +24,14 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	vertical-align: baseline;}
+
+figcaption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 20%;
+	color: #999;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
