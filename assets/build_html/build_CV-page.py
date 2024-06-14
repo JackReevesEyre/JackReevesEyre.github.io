@@ -23,7 +23,7 @@ def get_unique_content() -> str:
     """
     txt = """
 
-				<p align="center"><iframe src="images/CV_JReevesEyre_27Apr2023.pdf" width="80%" height="700px">
+				<p align="center"><iframe src="images/CV_JReevesEyre_14June2024.pdf" width="80%" height="700px">
                                 </iframe></p>
 
 
