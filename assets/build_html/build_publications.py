@@ -1,56 +1,27 @@
-<!DOCTYPE html>
+"""Builds the publications page. 
+"""
 
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+from web_page import WebPage
 
-	<head>
-		<title>Publications | Jack Reeves Eyre</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-        <body class="is-preload">
-            <div id="page-wrapper">
+def main():
+    content = get_unique_content()
+    page = WebPage('../../publications.html',
+                   'Publications | Jack Reeves Eyre',
+                   'publications',
+                   content)
+    page.build_web_page()
+    return
 
 
-			<!-- Header -->
-				<div id="header">
+def get_unique_content() -> str:
+    """Gets this page's unique content.
 
-					<!-- Logo -->
-						<h1><a href="index.html" id="logo">Jack Reeves Eyre</a></h1>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="research.html">Research</a></li>
-								<li class="current"><a href="publications.html">Publications</a></li>
-								<li><a href="CV-page.html">CV</a></li>
-								<li><a href="miscellany.html">Miscellany</a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-
-				<section id="banner">
-					<header>
-						<!-- Icons -->
-						<ul class="icons">
-							<li><a href="https://scholar.google.com/citations?user=ddr5XFQAAAAJ&hl=en" class="ai ai-google-scholar ai-3x" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://github.com/JackReevesEyre" class="icon brands fa-github" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://bitbucket.org/jack_eyre/" class="icon brands fa-bitbucket" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://orcid.org/0000-0001-8893-9810" class="ai ai-orcid ai-3x" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://www.researchgate.net/profile/Jack-Reeves-Eyre" class="ai ai-researchgate ai-3x" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://www.linkedin.com/in/jack-reeves-eyre/" class="icon brands fa-linkedin-in" target="_blank"><span class="label"></span></a></li>
-						</ul>
-					</header>
-				</section>
-
+    Arguments:
+        None
+    Returns:
+        The content in a single string.
+    """
+    txt = """
 
 				<section class="wrapper style1">
 					<div class="container">
@@ -112,56 +83,9 @@
 					</div>
 				</section>
 
+"""
+    return txt
+    
 
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>Links</h3>
-								<ul class="links">
-									<li><a href="https://www.runningtide.com/" target="_blank">Running Tide</a></li>
-									<li><a href="https://www.cpc.ncep.noaa.gov" target="_blank">CPC</a></li>
-									<li><a href="https://www.weather.gov/" target="_blank">NWS</a></li>
-								</ul>
-							</section>
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3> </h3>
-								<ul class="links">
-								</ul>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<h3>Get In Touch</h3>
-								<p>jack [dot] reeveseyre [at] gmail [dot] com
-								</p>
-							</section>
-						</div>
-					</div>
-
-					<!-- Icons -->
-						<ul class="icons">
-							<li><a href="https://scholar.google.com/citations?user=ddr5XFQAAAAJ&hl=en" class="ai ai-google-scholar ai-3x" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://github.com/JackReevesEyre" class="icon brands fa-github" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://bitbucket.org/jack_eyre/" class="icon brands fa-bitbucket" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://orcid.org/0000-0001-8893-9810" class="ai ai-orcid ai-3x" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://www.researchgate.net/profile/Jack-Reeves-Eyre" class="ai ai-researchgate ai-3x" target="_blank"><span class="label"></span></a></li>
-							<li><a href="https://www.linkedin.com/in/jack-reeves-eyre/" class="icon brands fa-linkedin-in" target="_blank"><span class="label"></span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Jack Reeves Eyre. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
-            </div>
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-        </body>
-</html>
+if __name__ == "__main__":
+    main()
