@@ -35,6 +35,15 @@ def get_unique_content() -> str:
 									</div>
 								</div>
 							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="./brackets.html" class="image left"><img src="images/brackets.png" alt="" /></a>
+									<div class="inner">
+										<a href="./brackets.html"><h3>Parenthetic vs antithetic brackets</h3></a>
+										<p>And does your opinion about brackets depend on how you read?</p>
+									</div>
+								</div>
+							</section>
 						</div>
 					</div>
 				</section>

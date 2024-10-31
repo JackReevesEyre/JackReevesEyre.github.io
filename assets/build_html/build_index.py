@@ -37,7 +37,7 @@ def get_unique_content() -> str:
 								<div class="box highlight">
 									<i class="icon solid major fa-university"></i>
 									<h3>Position</h3>
-									<p>I work as an Ocean Research Scientist at Running Tide</p>
+									<p>I'm a meteorologist/oceanographer specializing in air-sea interactions</p>
 								</div>
 							</section>
 							<section class="col-3 col-12-narrower">
