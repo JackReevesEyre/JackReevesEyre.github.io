@@ -32,7 +32,8 @@ class WebPage:
         add_html_body_tag(f)
         add_html_div_tag(f)
         add_header(f, self.header_section)
-        add_banner(f)
+        if self.header_section == 'index':
+            add_banner(f)
         #
         f.write(self.unique_content)
         #

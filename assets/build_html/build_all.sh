@@ -11,4 +11,5 @@ python build_miscellany.py
 python build_publications.py 
 python build_research.py 
 python build_rossby_number.py 
-python build_saildrone.py 
+python build_saildrone.py
+python build_sail_powered_science.py

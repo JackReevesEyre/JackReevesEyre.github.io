@@ -28,6 +28,15 @@ def get_unique_content() -> str:
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
+									<a href="./sail_powered_science.html" class="image left"><img src="images/Amundsen-Fram.jpeg" alt="" /></a>
+									<div class="inner">
+										<a href="./sail_powered_science.html"><h3>Sail-Powered Science</h3></a>
+										<p>A modern twist on an old standard.</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
 									<a href="./rossby_number.html" class="image left"><img src="images/Rossby_LCCN2016875745.jpeg" alt="" /></a>
 									<div class="inner">
 										<a href="./rossby_number.html"><h3>What's your Rossby number?</h3></a>
@@ -35,6 +44,8 @@ def get_unique_content() -> str:
 									</div>
 								</div>
 							</section>
+						</div>
+						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
 									<a href="./brackets.html" class="image left"><img src="images/brackets.png" alt="" /></a>
