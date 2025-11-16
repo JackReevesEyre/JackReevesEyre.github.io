@@ -28,6 +28,15 @@ def get_unique_content() -> str:
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
+									<a href="./ocean_diurnal_cycle.html" class="image left"><img src="images/pexels-photo-2775196.jpeg" alt="" /></a>
+									<div class="inner">
+										<a href="./ocean_diurnal_cycle.html"><h3>Ocean Diurnal Cycle</h3></a>
+										<p>Understanding the diurnal variation of the ocean and atmosphere.</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
 									<a href="./saildrone.html" class="image left"><img src="images/saildrone.jpg" alt="" /></a>
 									<div class="inner">
 										<a href="./saildrone.html"><h3>Saildrone Surface Fluxes</h3></a>
@@ -35,6 +44,8 @@ def get_unique_content() -> str:
 									</div>
 								</div>
 							</section>
+						</div>
+						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
 									<a href="./e3sm.html" class="image left"><img src="images/pexels-rafael-paul-4797130_square.jpg" alt="" /></a>
@@ -44,8 +55,6 @@ def get_unique_content() -> str:
 									</div>
 								</div>
 							</section>
-						</div>
-						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/pexels-sergio-souza-6793564.jpg" alt="" /></a>
@@ -55,6 +64,8 @@ def get_unique_content() -> str:
 									</div>
 								</div>
 							</section>
+						</div>
+						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
 									<a href="#" class="image left"><img src="images/pexels-magic-k-6730626.jpg" alt="" /></a>
